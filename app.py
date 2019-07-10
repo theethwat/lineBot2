@@ -10,7 +10,6 @@ def index():
     a=os.environ['Authorization']
     return "นายธีร์ธวัช เรืองศิลป์ เลขที่2 ม.4/8"
 
-
 @app.route("/webhook", methods=['POST'])
 def webhook():
     if request.method == 'POST':
