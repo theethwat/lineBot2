@@ -29,11 +29,7 @@ def callback():
         sendText(user,'ดีจ้าา')
     elif (userText == 'ทำไร่อ่ะ') :
         sendText(user,sendText(user,'นอนเล่น')
-    elif (userText == 'ทานข้าวยัง') :
-      sendText(user,'ทานแล้ว')
-    else :
-       sendText(user,'ฉันไม่เข้าใจที่คุณพูด')
-    return '',200
+     return '',200
 
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
